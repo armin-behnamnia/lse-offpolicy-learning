@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python main_semi_ot.py --config config/emnist/linear/ops_bandit_no_wd.yaml --tau 1.0 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 777 --adaptive_lambda 1 --gamma_noise_beta 0.001 --disable_weight_decay

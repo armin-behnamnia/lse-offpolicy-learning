@@ -1,0 +1,26 @@
+optimizer: 'SGD'
+<<<<<<< HEAD
+dataset: 'fmnist_f/0.2_1'
+=======
+dataset: 'fmnist_f/1.0_1'
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043
+num_sample: 1
+weight_decay: 
+- 0.001
+- 0.05
+lr: 0.005
+epochs: 120
+batch_size: 128
+batch_log_interval: 50
+train_limit: 500_000
+lamda: 0
+experiment: 
+  name: 'full_ips_bandit_feedback_KL'
+  n_exp: 3
+  n_trials: 10
+  feedback: 'bandit'
+  regularizers:
+    KL:
+    - 0.05
+    - 10.0
+  labeled_portion: u1

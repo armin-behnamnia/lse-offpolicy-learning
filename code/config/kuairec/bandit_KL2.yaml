@@ -1,0 +1,23 @@
+optimizer: 'SGD'
+dataset: 'kuairec_${UL}'
+num_sample: 5
+weight_decay: 
+- 0.00005
+- 0.001
+lr: 0.01
+lr_sch: CosineAnnealingLR
+epochs: 120
+batch_size: 32
+batch_log_interval: 50
+train_limit: 5_000_000
+lamda: 0.9
+experiment: 
+  name: 'full_bandit_feedback_KL2'
+  n_exp: 5
+  n_trials: 6
+  feedback: 'bandit'
+  regularizers:
+    KL2:
+    - 0.05
+    - 5.0
+  labeled_portion: u0

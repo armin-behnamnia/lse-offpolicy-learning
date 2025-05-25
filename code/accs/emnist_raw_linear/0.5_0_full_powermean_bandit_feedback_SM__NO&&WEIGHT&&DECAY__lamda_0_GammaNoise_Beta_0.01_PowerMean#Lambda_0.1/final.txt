@@ -1,0 +1,8 @@
+Study statistics: 
+  Number of finished trials: 3
+  Number of pruned trials: 0
+  Number of complete trials: 3
+Best trial:
+  Value: 66.75666666666667
+    SM_coef: 2.0311277191023053e-05
+

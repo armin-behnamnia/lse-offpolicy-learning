@@ -1,0 +1,9 @@
+python main_semi_rec.py --config config/kuairec/lse_bandit_AR_no_wd.yaml --device cuda:1 --linear --raw_image --lse_lambda 0.01
+python main_semi_rec.py --config config/kuairec/lse_bandit_AR_no_wd.yaml --device cuda:1 --linear --raw_image --lse_lambda 0.1
+python main_semi_rec.py --config config/kuairec/lse_bandit_AR_no_wd.yaml --device cuda:1 --linear --raw_image --lse_lambda 1.0
+python main_semi_rec.py --config config/kuairec/lse_bandit_AR_no_wd_ns3.yaml --device cuda:1 --linear --raw_image --lse_lambda 0.01
+python main_semi_rec.py --config config/kuairec/lse_bandit_AR_no_wd_ns3.yaml --device cuda:1 --linear --raw_image --lse_lambda 0.1
+python main_semi_rec.py --config config/kuairec/lse_bandit_AR_no_wd_ns3.yaml --device cuda:1 --linear --raw_image --lse_lambda 1.0
+python main_semi_rec.py --config config/kuairec/lse_bandit_AR_no_wd_ns5.yaml --device cuda:1 --linear --raw_image --lse_lambda 0.01
+python main_semi_rec.py --config config/kuairec/lse_bandit_AR_no_wd_ns5.yaml --device cuda:1 --linear --raw_image --lse_lambda 0.1
+python main_semi_rec.py --config config/kuairec/lse_bandit_AR_no_wd_ns5.yaml --device cuda:1 --linear --raw_image --lse_lambda 1.0

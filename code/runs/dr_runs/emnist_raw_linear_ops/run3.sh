@@ -1,0 +1,5 @@
+python main_semi_ot.py --config config/emnist/linear/DR_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 0.01 --gamma_noise_beta 0.01 --disable_weight_decay
+python main_semi_ot.py --config config/emnist/linear/DR_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 0.1 --gamma_noise_beta 0.01 --disable_weight_decay
+python main_semi_ot.py --config config/emnist/linear/DR_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 1 --gamma_noise_beta 0.01 --disable_weight_decay
+python main_semi_ot.py --config config/emnist/linear/DR_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 10 --gamma_noise_beta 0.01 --disable_weight_decay
+python main_semi_ot.py --config config/emnist/linear/DR_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 100 --gamma_noise_beta 0.01 --disable_weight_decay

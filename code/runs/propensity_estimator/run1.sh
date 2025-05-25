@@ -1,0 +1,1 @@
+python train_logging_policy.py --config config/emnist/supervised.yaml --device cuda:1 --tau 0.2 --dataset emnist --linear --raw_image --propensiy_estimation

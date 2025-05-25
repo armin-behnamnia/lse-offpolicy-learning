@@ -1,0 +1,16 @@
+Study statistics: 
+  Number of finished trials: 3
+  Number of pruned trials: 0
+  Number of complete trials: 3
+Best trial:
+  Value: 89.81
+    KL_coef: 2.9497411172482906
+
+Study statistics: 
+  Number of finished trials: 3
+  Number of pruned trials: 0
+  Number of complete trials: 3
+Best trial:
+  Value: 90.16000000000001
+    KL_coef: 0.27921444011485486
+

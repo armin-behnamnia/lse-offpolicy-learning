@@ -1,0 +1,4 @@
+python train_logging_policy.py --config config/new_cifar/h0/linear.yaml -p 1.0 --device cuda:1 --tau 1.0 --dataset cifar --raw_image --linear --feature_size 2048
+python train_logging_policy.py --config config/new_cifar/h0/linear.yaml -p 1.0 --device cuda:1 --tau 0.2 --dataset cifar --raw_image --linear --feature_size 2048
+python train_logging_policy.py --config config/new_cifar/h0/linear.yaml -p 1.0 --device cuda:1 --tau 0.1 --dataset cifar --raw_image --linear --feature_size 2048
+python train_logging_policy.py --config config/new_cifar/h0/linear.yaml -p 1.0 --device cuda:1 --tau 0.05 --dataset cifar --raw_image --linear --feature_size 2048

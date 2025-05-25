@@ -1,0 +1,1 @@
+python train_logging_policy.py --config config/letter/supervised.yaml --device cuda:1 --tau 0.2 --dataset letter --linear --raw_image --propensiy_estimation

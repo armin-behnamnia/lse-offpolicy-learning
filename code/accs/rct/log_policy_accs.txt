@@ -1,0 +1,8 @@
+Tau=1.0
+Train: Logging Policy Acc = 60.382320588861596                                                                                                                                     
+Val: Logging Policy Acc = 60.71477948292548                                                                                                                                      
+Test: ogging Policy Acc = 60.55335164276269 
+Tau=0.1
+Train: Logging Policy Acc = 26.422908130302943
+Val: Logging Policy Acc = 26.3099682012996
+Test: ogging Policy Acc = 26.446953514393247

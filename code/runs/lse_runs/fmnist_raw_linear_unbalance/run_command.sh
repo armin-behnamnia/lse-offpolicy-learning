@@ -1,0 +1,7 @@
+python create_bandit_dataset.py --config config/fmnist/h0/linear_raw.yaml --device cuda:1 --linear --tau 1.0 --ul 0 --dataset fmnist --raw_image --unbalance 5 0.5 --data_repeat 2
+python create_bandit_dataset.py --config config/fmnist/h0/linear_raw.yaml --device cuda:1 --linear --tau 1.0 --ul 0 --dataset fmnist --raw_image --unbalance 5 0.6 --data_repeat 2
+python create_bandit_dataset.py --config config/fmnist/h0/linear_raw.yaml --device cuda:1 --linear --tau 1.0 --ul 0 --dataset fmnist --raw_image --unbalance 5 0.7 --data_repeat 2
+python create_bandit_dataset.py --config config/fmnist/h0/linear_raw.yaml --device cuda:1 --linear --tau 1.0 --ul 0 --dataset fmnist --raw_image --unbalance 5 0.8 --data_repeat 2
+python create_bandit_dataset.py --config config/fmnist/h0/linear_raw.yaml --device cuda:1 --linear --tau 1.0 --ul 0 --dataset fmnist --raw_image --unbalance 5 0.9 --data_repeat 2
+python create_bandit_dataset.py --config config/fmnist/h0/linear_raw.yaml --device cuda:1 --linear --tau 1.0 --ul 0 --dataset fmnist --raw_image --unbalance 5 0.95 --data_repeat 2
+python create_bandit_dataset.py --config config/fmnist/h0/linear_raw.yaml --device cuda:1 --linear --tau 1.0 --ul 0 --dataset fmnist --raw_image --unbalance 5 0.99 --data_repeat 2

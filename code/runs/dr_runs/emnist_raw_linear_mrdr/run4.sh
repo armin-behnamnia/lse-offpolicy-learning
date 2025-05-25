@@ -1,0 +1,2 @@
+python main_semi_ot.py --config config/emnist/linear/DR_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --raw_image --linear --discrete_reward 1.0 1 --discrete_flip 0.1 1000 --mrdr 1 --disable_weight_decay
+python main_semi_ot.py --config config/fmnist/linear/DR_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --raw_image --linear --discrete_reward 1.0 1 --discrete_flip 0.1 1000 --mrdr 1 --disable_weight_decay

@@ -1,0 +1,21 @@
+Study statistics: 
+  Number of finished trials: 1
+  Number of pruned trials: 0
+  Number of complete trials: 1
+Best trial:
+  Value: 10.756666666666666
+
+Study statistics: 
+  Number of finished trials: 1
+  Number of pruned trials: 0
+  Number of complete trials: 1
+Best trial:
+  Value: 89.20666666666666
+
+Study statistics: 
+  Number of finished trials: 1
+  Number of pruned trials: 0
+  Number of complete trials: 1
+Best trial:
+  Value: 89.13666666666666
+

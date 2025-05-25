@@ -1,0 +1,3 @@
+python main_semi_ot.py --config config/emnist/linear/lse_bandit_no_wd.yaml --tau 1.0 --ul 0 --device cuda:1 --raw_image --linear --lse_lambda 0.1 --disable_weight_decay --logging_policy_cm cfms/emnist/cfm_1.txt 
+python main_semi_ot.py --config config/emnist/linear/lse_bandit_no_wd.yaml --tau 1.0 --ul 0 --device cuda:1 --raw_image --linear --lse_lambda 0.1 --disable_weight_decay --logging_policy_cm cfms/emnist/cfm_2.txt 
+python main_semi_ot.py --config config/emnist/linear/lse_bandit_no_wd.yaml --tau 1.0 --ul 0 --device cuda:1 --raw_image --linear --lse_lambda 0.1 --disable_weight_decay --logging_policy_cm cfms/emnist/cfm_3.txt 

@@ -1,0 +1,18 @@
+template: true
+optimizer: 'SGD'
+dataset: 'kuairec_0'
+num_sample: 14
+lr: 0.01
+lr_sch: CosineAnnealingLR
+epochs: 300
+batch_size: 256
+batch_log_interval: 50
+train_limit: 500_000
+lse_lamda: 2.0
+lamda: 0
+experiment:
+  name: 'full_lse_bandit_feedback_ns14'
+  n_exp: 3
+  n_trials: 1
+  feedback: 'bandit'
+  regularizers: null

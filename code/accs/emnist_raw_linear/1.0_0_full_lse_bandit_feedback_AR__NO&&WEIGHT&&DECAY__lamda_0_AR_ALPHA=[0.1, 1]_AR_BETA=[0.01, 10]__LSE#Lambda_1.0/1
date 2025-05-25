@@ -1,0 +1,19 @@
+Acc:
+  mean: 89.7
+  std: 0.0
+AvgAcc:
+  mean: 82.7148
+  std: 0.0
+CV:
+  mean: 1.8258
+  std: 0.0
+SNIPS:
+  mean: 0.4521
+  std: 0.0
+loss:
+  mean: -1.5286
+  std: 0.0
+main_loss:
+  mean: 206.3195
+  std: 0.0
+

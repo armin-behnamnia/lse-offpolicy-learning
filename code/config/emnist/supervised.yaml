@@ -1,0 +1,17 @@
+optimizer: 'SGD'
+dataset: 'emnist/base'
+num_sample: 1
+weight_decay: 0.01
+lr: 0.005
+epochs: 120
+batch_size: 128
+batch_log_interval: 50
+train_limit: 500_000
+lamda: 0.9
+experiment: 
+  name: 'supervised'
+  n_exp: 1
+  n_trials: 1
+  feedback: 'supervised'
+  regularizers: null
+  labeled_portion: u0

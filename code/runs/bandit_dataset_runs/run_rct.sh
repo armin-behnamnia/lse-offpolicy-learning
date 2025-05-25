@@ -1,0 +1,2 @@
+python create_bandit_dataset.py --config config/rct/h0.yaml --device cuda:0 --linear --tau 1.0 --ul 0 --dataset rct --raw_image
+python create_bandit_dataset.py --config config/rct/h0.yaml --device cuda:0 --linear --tau 0.1 --ul 0 --dataset rct --raw_image

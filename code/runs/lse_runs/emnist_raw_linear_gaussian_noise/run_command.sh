@@ -1,0 +1,1 @@
+python main_semi_ot.py --config config/emnist/linear/lse_bandit.yaml --tau 1.0 --ul 0 --device cuda:0 --raw_image --linear --lse_lambda -1 --gaussian_noise_alpha 1.0

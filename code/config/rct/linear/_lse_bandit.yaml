@@ -1,0 +1,17 @@
+template: true
+optimizer: 'SGD'
+dataset: 'fmnist_raw_linear/${TAU}_${UL}'
+num_sample: 1
+lr: 0.001
+epochs: 300
+batch_size: 128
+batch_log_interval: 50
+train_limit: 500_000
+lse_lamda: 2.0
+lamda: 0
+experiment: 
+  name: 'full_lse_bandit_feedback'
+  n_exp: 3
+  n_trials: 1
+  feedback: 'bandit'
+  regularizers: null

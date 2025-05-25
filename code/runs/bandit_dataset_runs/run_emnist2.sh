@@ -1,0 +1,8 @@
+CUDA_VISIBLE_DEVICES=1 python create_bandit_dataset.py --config config/letter/supervised.yaml --device cuda:0 --linear --tau 1.0 --ul 0 --dataset letter --raw_image --gamma_noise_beta 0.01
+CUDA_VISIBLE_DEVICES=1 python create_bandit_dataset.py --config config/letter/supervised.yaml --device cuda:0 --linear --tau 1.0 --ul 0 --dataset letter --raw_image --gamma_noise_beta 5.0
+CUDA_VISIBLE_DEVICES=1 python create_bandit_dataset.py --config config/letter/supervised.yaml --device cuda:0 --linear --tau 0.5 --ul 0 --dataset letter --raw_image --gamma_noise_beta 0.01
+CUDA_VISIBLE_DEVICES=1 python create_bandit_dataset.py --config config/letter/supervised.yaml --device cuda:0 --linear --tau 0.5 --ul 0 --dataset letter --raw_image --gamma_noise_beta 5.0
+CUDA_VISIBLE_DEVICES=1 python create_bandit_dataset.py --config config/letter/supervised.yaml --device cuda:0 --linear --tau 0.2 --ul 0 --dataset letter --raw_image --gamma_noise_beta 0.01
+CUDA_VISIBLE_DEVICES=1 python create_bandit_dataset.py --config config/letter/supervised.yaml --device cuda:0 --linear --tau 0.2 --ul 0 --dataset letter --raw_image --gamma_noise_beta 5.0
+CUDA_VISIBLE_DEVICES=1 python create_bandit_dataset.py --config config/letter/supervised.yaml --device cuda:0 --linear --tau 0.1 --ul 0 --dataset letter --raw_image --gamma_noise_beta 0.01
+CUDA_VISIBLE_DEVICES=1 python create_bandit_dataset.py --config config/letter/supervised.yaml --device cuda:0 --linear --tau 0.1 --ul 0 --dataset letter --raw_image --gamma_noise_beta 5.0

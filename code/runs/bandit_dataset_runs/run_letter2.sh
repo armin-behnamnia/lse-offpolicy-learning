@@ -1,0 +1,3 @@
+python create_bandit_dataset.py --config config/letter/supervised.yaml --device cuda:1 --linear --tau 0.1 --ul 0 --dataset letter --raw_image --gaussian_imbalance 3000
+python create_bandit_dataset.py --config config/letter/supervised.yaml --device cuda:1 --linear --tau 0.1 --ul 0 --dataset letter --raw_image --gaussian_imbalance 6000
+python create_bandit_dataset.py --config config/letter/supervised.yaml --device cuda:1 --linear --tau 0.1 --ul 0 --dataset letter --raw_image --gaussian_imbalance 9000

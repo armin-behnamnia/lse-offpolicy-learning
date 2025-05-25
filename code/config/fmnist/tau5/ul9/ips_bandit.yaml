@@ -1,0 +1,46 @@
+optimizer: 'SGD'
+dataset: 'fmnist_f/0.2_9'
+num_sample: 1
+weight_decay: 
+<<<<<<< HEAD
+- 0.0005
+- 0.001
+=======
+<<<<<<< HEAD:code/config/cifar/tau5/ul9/KL.yaml
+- 0.0001
+- 0.0001
+=======
+- 0.0005
+- 0.001
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043:code/config/fmnist/tau5/ul9/ips_bandit.yaml
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043
+lr: 0.005
+epochs: 120
+batch_size: 128
+batch_log_interval: 50
+train_limit: 500_000
+lamda: 0
+experiment: 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:code/config/cifar/tau5/ul9/KL.yaml
+  name: 'KL_best'
+  n_exp: 3
+  n_trials: 1
+  feedback: null
+  regularizers:
+    KL:
+    - 1.0
+    - 1.0
+=======
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043
+  name: 'ips_full_bandit_feedback'
+  n_exp: 3
+  n_trials: 5
+  feedback: 'bandit'
+  regularizers: null
+<<<<<<< HEAD
+=======
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043:code/config/fmnist/tau5/ul9/ips_bandit.yaml
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043
+  labeled_portion: u9

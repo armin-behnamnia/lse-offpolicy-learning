@@ -1,0 +1,1 @@
+python main_semi_ot.py --config config/emnist/linear/bandit_net_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --raw_image --linear --disable_weight_decay

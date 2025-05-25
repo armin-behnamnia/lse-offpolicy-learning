@@ -1,0 +1,53 @@
+optimizer: 'SGD'
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:code/config/fmnist/tau5/ul1/bandit_KL.yaml
+dataset: 'fmnist/0.2_1'
+num_sample: 1
+weight_decay: 
+- 0.002
+- 0.02
+=======
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043
+dataset: 'fmnist/0.1_1'
+num_sample: 1
+weight_decay: 
+- 0.0001
+- 0.0001
+<<<<<<< HEAD
+=======
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043:code/config/fmnist/tau10/ul1/KL.yaml
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043
+lr: 0.005
+epochs: 120
+batch_size: 128
+batch_log_interval: 50
+train_limit: 500_000
+lamda: 0.9
+experiment: 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:code/config/fmnist/tau5/ul1/bandit_KL.yaml
+  name: 'full_bandit_feedback_KL_best'
+  n_exp: 3
+  n_trials: 6
+  feedback: 'bandit'
+  regularizers:
+    KL: 
+    - 0.05
+    - 10.0
+=======
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043
+  name: 'KL_best'
+  n_exp: 3
+  n_trials: 1
+  feedback: null
+  regularizers:
+    KL: 
+    - 1.0
+    - 1.0
+<<<<<<< HEAD
+=======
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043:code/config/fmnist/tau10/ul1/KL.yaml
+>>>>>>> 673c86560494b2826f6a68af8348b414d1e7f043
+  labeled_portion: u1

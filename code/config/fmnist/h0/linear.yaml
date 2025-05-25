@@ -1,0 +1,16 @@
+optimizer: 'SGD'
+dataset: 'features/fmnist'
+num_sample: 1
+weight_decay: 0.0005
+lr: 0.005
+epochs: 40
+batch_size: 128
+batch_log_interval: 50
+train_limit: 500_000
+lamda: 0.9
+experiment:
+  name: 'logging_policy_linear'
+  n_exp: 1
+  feedback: 'supervised'
+  regularizers: null
+  labeled_portion: 1.0

@@ -1,0 +1,16 @@
+Acc:
+  mean: 0.4
+  std: 0.0
+CV:
+  mean: 0.0802
+  std: 0.0
+SNIPS:
+  mean: 0.0024
+  std: 0.0
+loss:
+  mean: 187.6139
+  std: 0.0
+main_loss:
+  mean: 187.6139
+  std: 0.0
+

@@ -1,0 +1,16 @@
+Study statistics: 
+  Number of finished trials: 8
+  Number of pruned trials: 0
+  Number of complete trials: 8
+Best trial:
+  Value: 91.49666666666667
+
+Study statistics: 
+  Number of finished trials: 5
+  Number of pruned trials: 0
+  Number of complete trials: 5
+Best trial:
+  Value: 90.33
+    AR_beta: 0.09571107218074917
+    AR_alpha: 8.443600091299253
+

@@ -1,0 +1,20 @@
+template: true
+optimizer: 'SGD'
+dataset: 'emnist_raw_linear/${TAU}_${UL}'
+num_sample: 1
+lr: 0.001
+epochs: 300
+batch_size: 256
+batch_log_interval: 50
+train_limit: 500_000
+exs_alpha: 1
+lamda: 0
+experiment: 
+  name: 'full_exponential_smoothing_bandit_feedback_KL'
+  n_exp: 3
+  n_trials: 3
+  feedback: 'bandit'
+  regularizers:
+    KL: 
+    - 0.05
+    - 5.0

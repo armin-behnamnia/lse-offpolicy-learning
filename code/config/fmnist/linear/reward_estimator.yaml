@@ -1,0 +1,18 @@
+template: true
+optimizer: 'SGD'
+dataset: 'fmnist_raw_linear/${TAU}_${UL}'
+target_dataset: 'fmnist'
+weight_decay: 0.01
+num_sample: 1
+lr: 0.005
+epochs: 300
+batch_size: 256
+batch_log_interval: 50
+train_limit: 500_000
+lamda: 0
+experiment:
+  name: 'reward_estimator_bandit_feedback'
+  n_exp: 1
+  n_trials: 1
+  feedback: 'bandit'
+  regularizers: null

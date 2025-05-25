@@ -1,0 +1,6 @@
+CUDA_VISIBLE_DEVICES=0 python main_semi_ot.py --config config/emnist/linear/ops_bandit_no_wd.yaml --tau 0.05 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 0.01 --gamma_noise_beta 0.01 --disable_weight_decay
+CUDA_VISIBLE_DEVICES=0 python main_semi_ot.py --config config/emnist/linear/ops_bandit_no_wd.yaml --tau 0.05 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 0.1 --gamma_noise_beta 0.01 --disable_weight_decay
+CUDA_VISIBLE_DEVICES=0 python main_semi_ot.py --config config/emnist/linear/ops_bandit_no_wd.yaml --tau 0.05 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 1 --gamma_noise_beta 0.01 --disable_weight_decay
+CUDA_VISIBLE_DEVICES=0 python main_semi_ot.py --config config/fmnist/linear/ops_bandit_no_wd.yaml --tau 1.0 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 0.01 --gamma_noise_beta 0.01 --disable_weight_decay
+CUDA_VISIBLE_DEVICES=0 python main_semi_ot.py --config config/fmnist/linear/ops_bandit_no_wd.yaml --tau 1.0 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 0.1 --gamma_noise_beta 0.01 --disable_weight_decay
+CUDA_VISIBLE_DEVICES=0 python main_semi_ot.py --config config/fmnist/linear/ops_bandit_no_wd.yaml --tau 1.0 --ul 0 --device cuda:0 --raw_image --linear --ops_lambda 1 --gamma_noise_beta 0.01 --disable_weight_decay

@@ -1,0 +1,19 @@
+optimizer: 'SGD'
+dataset: 'fmnist/0.1_0'
+num_sample: 1
+weight_decay:
+- 0.005
+- 0.01
+lr: 0.005
+epochs: 120
+batch_size: 128
+batch_log_interval: 50
+train_limit: 500_000
+lamda: 0.9
+experiment: 
+  name: 'full_bandit_feedback'
+  n_exp: 3
+  n_trials: 3
+  feedback: 'bandit'
+  regularizers: null
+  labeled_portion: u0

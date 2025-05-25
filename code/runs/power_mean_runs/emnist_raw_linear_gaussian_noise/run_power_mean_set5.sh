@@ -1,0 +1,5 @@
+python main_semi_ot.py --config config/emnist/linear/powermean_bandit.yaml --tau 0.2 --ul 0 --device cuda:1 --raw_image --linear --power_mean_lambda 0 --gaussian_noise_alpha 20.0
+python main_semi_ot.py --config config/emnist/linear/powermean_bandit.yaml --tau 0.2 --ul 0 --device cuda:1 --raw_image --linear --power_mean_lambda 0.1 --gaussian_noise_alpha 20.0
+python main_semi_ot.py --config config/emnist/linear/powermean_bandit.yaml --tau 0.2 --ul 0 --device cuda:1 --raw_image --linear --power_mean_lambda 0.3 --gaussian_noise_alpha 20.0
+python main_semi_ot.py --config config/emnist/linear/powermean_bandit.yaml --tau 0.2 --ul 0 --device cuda:1 --raw_image --linear --power_mean_lambda 0.5 --gaussian_noise_alpha 20.0
+python main_semi_ot.py --config config/emnist/linear/powermean_bandit.yaml --tau 0.2 --ul 0 --device cuda:1 --raw_image --linear --power_mean_lambda 0.8 --gaussian_noise_alpha 20.0

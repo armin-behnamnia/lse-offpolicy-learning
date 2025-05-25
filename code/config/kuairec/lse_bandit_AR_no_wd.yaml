@@ -1,0 +1,25 @@
+template: true
+optimizer: 'SGD'
+dataset: 'kuairec_0'
+num_sample: 1
+weight_decay: 
+  - 0.00001
+  - 0.00001
+lr: 0.02
+epochs: 300
+lr_sch: CosineAnnealingLR
+batch_size: 256
+batch_log_interval: 50
+train_limit: 500_000
+lse_lamda: 2.0
+lamda: 0
+ar_alpha: 0.95
+experiment:
+  name: '10n_full_lse_bandit_feedback_AR'
+  n_exp: 10
+  n_trials: 6
+  feedback: 'bandit'
+  regularizers:
+    AlphaRenyi:
+      type: 1
+      beta: [0.001, 10]

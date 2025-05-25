@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=1 python main_semi_ot.py --config config/fmnist/linear/bandit_net_bandit_no_wd.yaml --tau 1.0 --ul 0 --device cuda:0 --raw_image --linear --gamma_noise_beta 0.01 --disable_weight_decay
+CUDA_VISIBLE_DEVICES=1 python main_semi_ot.py --config config/fmnist/linear/bandit_net_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --raw_image --linear --gamma_noise_beta 0.01 --disable_weight_decay
+CUDA_VISIBLE_DEVICES=1 python main_semi_ot.py --config config/fmnist/linear/bandit_net_bandit_no_wd.yaml --tau 0.05 --ul 0 --device cuda:0 --raw_image --linear --gamma_noise_beta 0.01 --disable_weight_decay

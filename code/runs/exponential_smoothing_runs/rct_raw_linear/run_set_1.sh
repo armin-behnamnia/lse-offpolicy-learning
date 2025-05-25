@@ -1,0 +1,3 @@
+python main_semi_ot.py --config config/rct/linear/exponential_smoothing_bandit.yaml --tau 1.0 --ul 0 --device cuda:0 --raw_image --linear --exs_alpha 0.1 --disable_weight_decay
+python main_semi_ot.py --config config/rct/linear/exponential_smoothing_bandit.yaml --tau 1.0 --ul 0 --device cuda:0 --raw_image --linear --exs_alpha 0.5 --disable_weight_decay
+python main_semi_ot.py --config config/rct/linear/exponential_smoothing_bandit.yaml --tau 1.0 --ul 0 --device cuda:0 --raw_image --linear --exs_alpha 0.9 --disable_weight_decay

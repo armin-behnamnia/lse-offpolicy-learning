@@ -1,0 +1,22 @@
+template: true
+optimizer: 'SGD'
+dataset: 'emnist_raw_linear/${TAU}_${UL}'
+num_sample: 1
+weight_decay: 
+- 0.0005
+- 0.05
+lr: 0.0005
+epochs: 3
+batch_size: 128
+batch_log_interval: 50
+train_limit: 500_000
+lamda: 0
+experiment: 
+  name: 'full_rew_ips_bandit_feedback_KL'
+  n_exp: 1
+  n_trials: 1
+  feedback: 'bandit'
+  regularizers:
+    KL: 
+    - 0.05
+    - 5.0

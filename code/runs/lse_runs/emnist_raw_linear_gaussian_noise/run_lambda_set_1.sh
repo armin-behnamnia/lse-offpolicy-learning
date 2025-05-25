@@ -1,0 +1,6 @@
+python main_semi_ot.py --config config/emnist/linear/lse_bandit.yaml --tau 0.2 --ul 0 --device cuda:0 --raw_image --linear --lse_lambda 0.01 --gaussian_noise_alpha 1.0
+python main_semi_ot.py --config config/emnist/linear/lse_bandit.yaml --tau 0.2 --ul 0 --device cuda:0 --raw_image --linear --lse_lambda 0.1 --gaussian_noise_alpha 1.0
+python main_semi_ot.py --config config/emnist/linear/lse_bandit.yaml --tau 0.2 --ul 0 --device cuda:0 --raw_image --linear --lse_lambda 1 --gaussian_noise_alpha 1.0
+python main_semi_ot.py --config config/emnist/linear/lse_bandit.yaml --tau 0.2 --ul 0 --device cuda:0 --raw_image --linear --lse_lambda 0.01 --gaussian_noise_alpha 10.0
+python main_semi_ot.py --config config/emnist/linear/lse_bandit.yaml --tau 0.2 --ul 0 --device cuda:0 --raw_image --linear --lse_lambda 0.1 --gaussian_noise_alpha 10.0
+python main_semi_ot.py --config config/emnist/linear/lse_bandit.yaml --tau 0.2 --ul 0 --device cuda:0 --raw_image --linear --lse_lambda 1 --gaussian_noise_alpha 10.0

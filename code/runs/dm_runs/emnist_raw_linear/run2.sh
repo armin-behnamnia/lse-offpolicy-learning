@@ -1,0 +1,1 @@
+python main_semi_ot.py --config config/fmnist/linear/DM_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --raw_image --linear --gamma_noise_beta 5.0 --disable_weight_decay

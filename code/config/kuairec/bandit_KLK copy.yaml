@@ -1,0 +1,23 @@
+optimizer: 'SGD'
+dataset: 'cifar100/${TAU}_${UL}'
+num_sample: 1
+weight_decay: 
+- 0.00001
+- 0.005
+lr: 0.01
+lr_sch: CosineAnnealingLR
+epochs: 120
+batch_size: 128
+batch_log_interval: 50
+train_limit: 5_000_000
+lamda: 0.9
+experiment: 
+  name: 'full_bandit_feedback_KLK'
+  n_exp: 3
+  n_trials: 1
+  feedback: 'bandit'
+  regularizers:
+    KL: 
+    - 0.005
+    - 5.0
+  labeled_portion: u0

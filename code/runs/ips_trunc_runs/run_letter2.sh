@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=1 python main_semi_ot.py --config config/letter/linear/ips_trunc_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --ips_trunc 10.0 --raw_image --linear --disable_weight_decay --gaussian_imbalance 9000
+CUDA_VISIBLE_DEVICES=1 python main_semi_ot.py --config config/letter/linear/ips_trunc_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --ips_trunc 50.0 --raw_image --linear --disable_weight_decay --gaussian_imbalance 9000
+CUDA_VISIBLE_DEVICES=1 python main_semi_ot.py --config config/letter/linear/ips_trunc_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --ips_trunc 2.0 --raw_image --linear --disable_weight_decay --gamma_noise_beta 5.0
+CUDA_VISIBLE_DEVICES=1 python main_semi_ot.py --config config/letter/linear/ips_trunc_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --ips_trunc 10.0 --raw_image --linear --disable_weight_decay --gamma_noise_beta 5.0
+CUDA_VISIBLE_DEVICES=1 python main_semi_ot.py --config config/letter/linear/ips_trunc_bandit_no_wd.yaml --tau 0.1 --ul 0 --device cuda:0 --ips_trunc 50.0 --raw_image --linear --disable_weight_decay --gamma_noise_beta 5.0

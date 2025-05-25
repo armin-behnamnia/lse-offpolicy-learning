@@ -1,0 +1,1 @@
+python main_semi_ot.py --config config/emnist/linear/powermean_bandit_no_wd.yaml --tau 0.2 --ul 0 --device cuda:1 --raw_image --linear --reward_pareto_noise 0.1 1.5 6.0 --power_mean_lambda 0 --disable_weight_decay

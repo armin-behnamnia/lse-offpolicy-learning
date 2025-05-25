@@ -1,0 +1,21 @@
+template: true
+optimizer: 'SGD'
+dataset: 'kuairec_0'
+num_sample: 3
+weight_decay: 
+  - 0.00001
+  - 0.00001
+lr: 0.02
+lr_sch: CosineAnnealingLR
+epochs: 300
+batch_size: 256
+batch_log_interval: 50
+train_limit: 500_000
+power_mean_lamda: 0.1
+lamda: 0
+experiment: 
+  name: '10n_full_powermean_bandit_feedback_ns3'
+  n_exp: 10
+  n_trials: 1
+  feedback: 'bandit'
+  regularizers: null

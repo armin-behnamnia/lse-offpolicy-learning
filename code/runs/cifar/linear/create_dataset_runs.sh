@@ -1,0 +1,3 @@
+python create_bandit_dataset.py --config config/cifar/h0/linear_raw.yaml --device cuda:0 --linear --tau 1.0 --ul 0 --dataset cifar --raw_image
+python create_bandit_dataset.py --config config/cifar/h0/linear_raw.yaml --device cuda:0 --linear --tau 0.2 --ul 0 --dataset cifar --raw_image
+python create_bandit_dataset.py --config config/cifar/h0/linear_raw.yaml --device cuda:0 --linear --tau 0.04 --ul 0 --dataset cifar --raw_image

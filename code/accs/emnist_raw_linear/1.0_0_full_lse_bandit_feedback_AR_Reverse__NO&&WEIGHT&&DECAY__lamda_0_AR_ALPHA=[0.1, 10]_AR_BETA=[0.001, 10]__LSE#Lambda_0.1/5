@@ -1,0 +1,19 @@
+Acc:
+  mean: 10.0
+  std: 0.0
+AvgAcc:
+  mean: .nan
+  std: .nan
+CV:
+  mean: .nan
+  std: .nan
+SNIPS:
+  mean: .nan
+  std: .nan
+loss:
+  mean: .nan
+  std: .nan
+main_loss:
+  mean: .nan
+  std: .nan
+

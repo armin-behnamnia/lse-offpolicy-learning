@@ -1,0 +1,38 @@
+Acc:
+  mean: 91.21999999999998
+  std: 0.021602468994692956
+AvgAcc:
+  mean: 85.12626666666667
+  std: 0.2020946038094249
+CV:
+  mean: 0.9993000000000002
+  std: 0.0002828427124746402
+SNIPS:
+  mean: 0.8538
+  std: 0.0017682382946499937
+loss:
+  mean: -0.0214
+  std: 0.0
+main_loss:
+  mean: -0.0214
+  std: 0.0
+
+Acc:
+  mean: 52.19
+  std: 0.0
+AvgAcc:
+  mean: 13.024
+  std: 0.0
+CV:
+  mean: 0.4806
+  std: 0.0
+SNIPS:
+  mean: 0.2853
+  std: 0.0
+loss:
+  mean: -0.0214
+  std: 0.0
+main_loss:
+  mean: -0.0214
+  std: 0.0
+

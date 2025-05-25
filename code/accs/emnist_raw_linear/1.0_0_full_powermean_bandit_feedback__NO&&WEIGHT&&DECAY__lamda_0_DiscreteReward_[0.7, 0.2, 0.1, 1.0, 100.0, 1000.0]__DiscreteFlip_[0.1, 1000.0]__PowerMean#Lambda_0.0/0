@@ -1,0 +1,57 @@
+Acc:
+  mean: 10.0
+  std: 0.0
+AvgAcc:
+  mean: 10.0
+  std: 0.0
+CV:
+  mean: 0.219
+  std: 0.0
+SNIPS:
+  mean: 0.4395
+  std: 0.0
+loss:
+  mean: -0.0963
+  std: 0.0
+main_loss:
+  mean: -0.0963
+  std: 0.0
+
+Acc:
+  mean: 10.0
+  std: 0.0
+AvgAcc:
+  mean: 10.0
+  std: 0.0
+CV:
+  mean: 0.4194
+  std: 0.0
+SNIPS:
+  mean: 0.2246
+  std: 0.0
+loss:
+  mean: -0.0942
+  std: 0.0
+main_loss:
+  mean: -0.0942
+  std: 0.0
+
+Acc:
+  mean: 19.11
+  std: 7.295756757641161
+AvgAcc:
+  mean: 19.065966666666665
+  std: 7.243401627381679
+CV:
+  mean: 0.5267000000000001
+  std: 0.09192326510011853
+SNIPS:
+  mean: 0.3550333333333333
+  std: 0.12133074173056427
+loss:
+  mean: -0.18643333333333334
+  std: 0.07244236022905076
+main_loss:
+  mean: -0.18643333333333334
+  std: 0.07244236022905076
+

@@ -1,0 +1,2 @@
+python create_bandit_dataset.py --config config/fmnist/supervised.yaml --device cuda:0 --linear --tau 0.1 --ul 0 --dataset fmnist --raw_image --gaussian_imbalance 9000
+python create_bandit_dataset.py --config config/fmnist/supervised.yaml --device cuda:0 --linear --tau 0.1 --ul 0 --dataset fmnist --raw_image --gamma_noise_beta 5.0

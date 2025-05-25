@@ -1,0 +1,22 @@
+template: true
+optimizer: 'SGD'
+dataset: 'fmnist_linear/${TAU}_${UL}'
+num_sample: 1
+weight_decay: 
+- 0.0005
+- 0.05
+lr: 0.005
+epochs: 60
+batch_size: 128
+batch_log_interval: 50
+train_limit: 500_000
+lamda: 0
+experiment: 
+  name: 'full_ips_bandit_feedback_KLK'
+  n_exp: 3
+  n_trials: 5
+  feedback: 'bandit'
+  regularizers:
+    KL: 
+    - 0.05
+    - 5.0

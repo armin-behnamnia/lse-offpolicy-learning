@@ -1,0 +1,20 @@
+template: true
+optimizer: 'SGD'
+dataset: 'rct_raw_linear/${TAU}_${UL}'
+num_sample: 1
+lr: 0.005
+epochs: 10
+batch_size: 256
+batch_log_interval: 50
+train_limit: 500_000
+lse_lamda: 2.0
+lamda: 0
+experiment:
+  name: 'full_lse_bandit_feedback_AR'
+  n_exp: 3
+  n_trials: 3
+  feedback: 'bandit'
+  regularizers:
+    AlphaRenyi:
+      type: 1
+      beta: [0.001, 10]

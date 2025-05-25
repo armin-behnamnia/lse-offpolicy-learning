@@ -1,0 +1,1 @@
+python train_reward_estimator.py --config config/emnist/linear/reward_estimator.yaml --tau 1.0 --ul 0 --device cuda:0 --raw_image --linear --disable_weight_decay
