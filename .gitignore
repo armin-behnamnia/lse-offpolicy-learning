@@ -187,11 +187,11 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-models/*
-plots/*
-saved_logs/*
-tensorboard_stuff/*
-data/*
+models/
+plots/
+saved_logs/
+tensorboard_stuff/
+data/
 *_env
 old/
 Models/
