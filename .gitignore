@@ -197,3 +197,4 @@ old/
 Models/
 /real_world/
 /my_commands/
+*.csv
